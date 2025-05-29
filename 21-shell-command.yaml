@@ -1,6 +1,6 @@
 - name: shell vs command
   hosts: frontend
   tasks:
-  - name: redirect ls output to a file 
-   #ansible.builtin.command: "ls -lte > /tmp/output.txt"
-    ansible.builtin.shell: "ls -lte > /tmp/output.txt"
+  - name: redirect ls output to a file
+    #ansible.builtin.command: "ls -ltr > /tmp/output.txt"
+    ansible.builtin.shell: "ls -ltr > /tmp/output.txt"

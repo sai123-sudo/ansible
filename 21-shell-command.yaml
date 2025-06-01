@@ -8,5 +8,4 @@
 
   - name: print the outcome
     ansible.builtin.debug:
-    register: command_result
      msg: "{{ command_result }}"

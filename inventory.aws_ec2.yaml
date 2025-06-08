@@ -10,7 +10,7 @@ hostnames:
 keyed_groups:
 - key: tags.Name #dynamic-frontend
   prefix: "dynamic"
-  separator: "_"
+  separator: "-"
 
 compose:
   # This sets the `ansible_host` variable to connect with the private IP address without changing the hostname.

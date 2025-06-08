@@ -5,7 +5,7 @@ filters:
  tag:Name: frontend
  instance-state-name: running
 hostmates:
-  - ip-adress
+  - private-ip-adress
 compose:
  ansible_host: private_ip_adress
 

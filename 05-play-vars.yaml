@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    COURSE: Ansible # equal to COURSE=Ansible in shell, shell we refer $VAR or ${VAR}
+    COURSE: DevOps with AWS # equal to COURSE=Ansible in shell, shell we refer $VAR or ${VAR}
     DURATION: 10HR
     TRAINER: Sivakumar
   tasks:
@@ -12,6 +12,9 @@
       msg: "Hello {{ COURSE }}, Course Duration: {{ DURATION }}, Trainer is {{ TRAINER }}"
 
   - name: print course information again
+    vars:
+      COURSE: Ansible
     ansible.builtin.debug:
+    COURCE: 
     #vars refernce should be surrounded by ""
       msg: "Hello {{ COURSE }}, Course Duration: {{ DURATION }}, Trainer is {{ TRAINER }}"

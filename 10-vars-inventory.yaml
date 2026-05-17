@@ -1,6 +1,6 @@
 - name: variables grom inventory
-  hosts: frontend
+  hosts: frontend 
   tasks:
-  - name: print course information
+  - name: print course information #nome is not imp
     ansible.builtin.debug:
       msg: "Hello I am learning {{ COURSE }}, Trainer  Is {{ TRAINER }}, Duration: {{ DURATION }}"

@@ -9,7 +9,7 @@
    - Linux
    - shell
    - ansible
-  CONCEPTS:
+   CONCEPTS:
     CI: Jenkins
     SCRIPTING: "shell, ansible, terraform, python"
   TASKS:

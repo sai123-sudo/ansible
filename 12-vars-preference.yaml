@@ -12,6 +12,6 @@
   tasks:
   - name: print the greeting
     vars:
-      GREETING: "Hello FROM TASK"
+      GREETING: "Hello from TASK"
     ansivle.builtin.debug:
       msg: "{{ GREETING }}"  

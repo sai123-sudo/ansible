@@ -32,15 +32,9 @@
 
   - name: convert to uppercase
     vars:
-      name: ponnapalli lakshmi Sai
+     - name: ponnapalli lakshmi Sai
     ansible.builtin.debug:
-      msg: "Hello {{ name | upper }}"  
-
-  - name: convert to lowercase
-    vars:
-      name: "Sivakumar Reddy M"
-    ansible.builtin.debug:
-      msg: "Hello {{ name | lower }}"
+      msg: "Hello {{ name | upper }}" 
 
   # - name: check IP address is valid or not
   #   vars:

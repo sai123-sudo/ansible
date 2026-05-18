@@ -34,7 +34,13 @@
     vars:
      - name: ponnapalli lakshmi Sai
     ansible.builtin.debug:
-      msg: "Hello {{ name | upper }}" 
+      msg: "Hello {{ name | upper }}"
+
+  - name: convert to lowercase
+    vars:
+    - name: SETHU BHAAI
+    ansible.builtin.debug:
+      msg: "Hello {{ name | lower }}"    
 
   # - name: check IP address is valid or not
   #   vars:
